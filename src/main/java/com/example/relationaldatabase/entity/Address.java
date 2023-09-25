@@ -19,7 +19,7 @@ public class Address {
     Long id;
     String street;
     String city;
-    @JsonIgnore
+//    @JsonIgnore
     @OneToOne(mappedBy = "address")
     User user;
 }
